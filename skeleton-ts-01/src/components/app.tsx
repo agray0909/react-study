@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Header from './header/header';
+import Button from './button/button';
 
 interface Props extends React.Props<App> {
 
@@ -30,6 +31,7 @@ export default class App extends React.Component<Props, States> {
             <div>
                 <h1> hello world - 3 </h1>
                 <Header />
+                <Button />
             </div>
         )
     }
